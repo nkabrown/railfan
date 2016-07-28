@@ -1,14 +1,10 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-const chooLog = require('choo-log');
+const log = require('choo-log');
 const choo = require('choo');
 const html = require('choo/html');
 
-const logger = chooLog();
-const app = choo({
-  onAction: logger.onAction,
-  onError: logger.onError,
-  onStateChange: logger.onStateChange
-});
+const app = choo();
+app.use(log());
 
 app.model({
   state: { name: '' },

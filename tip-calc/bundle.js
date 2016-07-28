@@ -3934,16 +3934,12 @@ module.exports = [
 ]
 
 },{}],37:[function(require,module,exports){
-const chooLog = require('choo-log');
+const log = require('choo-log');
 const choo = require('choo');
 const html = require('choo/html');
 
-const logger = chooLog();
-const app = choo({
-  onAction: logger.onAction,
-  onError: logger.onError,
-  onStateChange: logger.onStateChange
-});
+const app = choo();
+app.use(log());
 
 // formula: tip total = (tip amount / 100) * bill amount
 app.model({
