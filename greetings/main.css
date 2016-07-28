@@ -1,0 +1,30 @@
+main {
+  width: 100%;
+}
+
+.hello-content {
+  width: 450px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Arvo", sans-serif;
+  font-size: 150pt;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "Aleo", sans-serif;
+  font-size: 32pt;
+}
+
+input[type="text"] {
+  width: 400px;
+  border: none;
+  border-bottom: 2px solid #404040;
+  font-family: "Aleo", serif;
+  font-size: 28pt;
+  text-align: center;
+  outline: none;
+}
