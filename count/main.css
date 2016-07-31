@@ -1,0 +1,17 @@
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.output {
+  text-align: center;
+}
+
+#letters {
+  float: left;
+}
+
+.saved-list {
+  float: left;
+  margin-left: 50px;
+}
