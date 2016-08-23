@@ -1,0 +1,19 @@
+{
+  "name": "arithmetic",
+  "version": "0.0.1",
+  "description": "put two numbers through their arithmetic paces",
+  "main": "main.js",
+  "scripts": {
+    "dev": "budo main.js --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Brown <nkabrown@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.0.0",
+    "choo-log": "^1.4.0"
+  },
+  "dependencies": {
+    "choo": "^3.2.0"
+  }
+}
