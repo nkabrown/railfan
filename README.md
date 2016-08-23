@@ -8,6 +8,8 @@ It’s time to collect them into one repo.
 
 [Tip Calculator](http://requirebin.com/?gist=5654a45b6edf8d5645e6451f0c93d471)
 
+[Arithmetic](http://requirebin.com/?gist=398fa003f15e0e3bd94329524d9618a3)
+
 ## Development Notes
 
 https://gist.github.com/nkabrown/8c34168d0f3771f4ca8a4208df844ccf
