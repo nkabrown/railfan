@@ -1,4 +1,4 @@
-# Toy apps with choo
+# Toy apps with choo  [![built with choo v3](https://img.shields.io/badge/built%20with%20choo-v3-ffc3e4.svg?style=flat-square)](https://github.com/yoshuawuyts/choo)
 
 I’ve been making some toy apps with [choo](https://github.com/yoshuawuyts/choo) and I’m loving it.
 
