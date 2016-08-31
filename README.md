@@ -10,6 +10,8 @@ It’s time to collect them into one repo.
 
 [Arithmetic](http://requirebin.com/?gist=398fa003f15e0e3bd94329524d9618a3)
 
+[Character Count](http://requirebin.com/?gist=c48899214164f180427dc3f9e819e13d)
+
 ## Development Notes
 
 https://gist.github.com/nkabrown/8c34168d0f3771f4ca8a4208df844ccf
