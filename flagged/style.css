@@ -1,0 +1,24 @@
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+input[type=text] {
+  outline: none;
+}
+
+.list {
+  width: 20%;
+  margin: 0 auto;
+}
+
+ul {
+  height: 200px;
+}
+
+li {
+	list-style: none;
+}
+
+li:before {
+	content: "🚩";
+}
