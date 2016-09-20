@@ -12,6 +12,8 @@ It’s time to collect them into one repo.
 
 [Character Count](http://requirebin.com/?gist=c48899214164f180427dc3f9e819e13d)
 
+[Flagged Todos](http://requirebin.com/?gist=24a7e8b10553fb4b7adf85a5cd8ab587)
+
 ## Development Notes
 
 https://gist.github.com/nkabrown/8c34168d0f3771f4ca8a4208df844ccf
